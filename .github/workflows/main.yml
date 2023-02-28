@@ -35,7 +35,7 @@ jobs:
         with:
           installDir: 'c:\Program Files\Parasoft\dotTEST\2022.2'
           # Path to solution(s) to be analyzed. Specify multiple times to analyze many solutions. Supports ANT-style wildcards.
-          solution: 'c:\actions-runner\_work\hanna_examples\hanna_examples\SourceCode\BankExample.NET\\BankExample.NET.sln'
+          solution: .\SourceCode\BankExample.NET\BankExample.NET.sln
           showsettings: true
           property: console.verbosity.level=high
           # An URL of test configuration to be used for analysis
