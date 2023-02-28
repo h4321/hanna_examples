@@ -36,8 +36,8 @@ jobs:
           installDir: 'c:\Program Files\Parasoft\dotTEST\2022.2'
           # Path to solution(s) to be analyzed. Specify multiple times to analyze many solutions. Supports ANT-style wildcards.
           solution: .\SourceCode\BankExample.NET\BankExample.NET.WithTests.sln
-          showsettings: true
-          property: console.verbosity.level=high
+          showsettings: false
+          property: console.verbosity.level=low
           # An URL of test configuration to be used for analysis
           testConfig: 'builtin://Run VSTest Tests with Coverage' 
           reportDir: report
