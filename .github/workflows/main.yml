@@ -17,8 +17,10 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   dotTEST:
-    permissions: write-all
     name: dotTEST 1
+    # required permissions for upload-sarif action
+    permissions:
+      security-events: write
     # The type of runner that the job will run on
     runs-on: self-hosted
 
