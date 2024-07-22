@@ -36,7 +36,7 @@ jobs:
         # uses: tobyash86/run-dottest-analyzer-proto@1bc4be095189f455793afdb10b47127e06ae25ff
         uses: parasoft/run-dottest-action@2.0.1
         with:
-          installDir: 'c:\Program Files\Parasoft\dotTEST\2023.2'
+          installDir: 'c:\Program Files\Parasoft\dotTEST\2024.2'
           # Path to solution(s) to be analyzed. Specify multiple times to analyze many solutions. Supports ANT-style wildcards.
           solution: .\SourceCode\BankExample.NET\BankExample.NET.WithTests.sln
           showsettings: false
