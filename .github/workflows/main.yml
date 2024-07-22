@@ -42,7 +42,7 @@ jobs:
           showsettings: false
           property: console.verbosity.level=low
           # An URL of test configuration to be used for analysis
-          testConfig: 'builtin://Run VSTest Tests with Coverage'
+          testConfig: 'builtin://Demo'
           # Fails the command with exit code 2 if any findings are reported.
           fail: false
           sarifMode: 'builtin'
